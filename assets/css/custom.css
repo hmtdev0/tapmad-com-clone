@@ -1,0 +1,58 @@
+* {
+    overflow-x: hidden;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.nav-link.active {
+    border-bottom: 3px solid #04da76;
+    color: #04da76 !important;
+}
+
+.nav-link:hover {
+    color: #04da76;
+}
+
+.text-success {
+    color: #04da76 !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+.btn-success {
+    background: #04da76;
+    border-color: #04da76;
+}
+
+.btn-success:hover {
+    background: #0db667;
+    border-color: #0db667;
+}
+
+.headings {
+    color: white;
+    overflow: hidden;
+}
+
+.footer {
+    border-top: 2px solid #04da76;
+    background-color: black;
+}
+
+.footer .social-icons {
+    font-size: 24px;
+    transition: ease .3s;
+    color: white;
+}
+
+.footer .social-icons:hover{
+    color: #04da76;
+}
